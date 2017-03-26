@@ -1,0 +1,154 @@
+.container-1 {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.merge {
+    position: absolute;
+    color: black;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 130pt;
+    left: 50pt;
+    top: 140pt;
+}
+
+.bykylie {
+    position: absolute;
+    color: black;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    opacity: .6;
+    left: 57pt;
+    top: 280pt;
+}
+
+.container-2 {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#trio {
+    position: relative;
+    width: 700pt;
+    height:400pt;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+
+.container-3 {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.explanation-1 {
+    position:relative;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    width: 230px;
+    left:57pt;
+    top:45pt;
+    background-color: white;
+}
+
+#mappic {
+    position: relative;
+    width: 850pt;
+    height:400pt;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:-999999;
+    top:-345pt;
+}
+
+.container-4 {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.explanation-2 {
+    position:relative;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    width: 260px;
+    top:395pt;
+    left:57pt;
+    background-color: white;
+}
+
+#iphones {
+    position: relative;
+    width: 770pt;
+    height:350pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-55pt;
+}
+
+.container-5 {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.explanation-3{
+    position:relative;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    width: 320px;
+    top:410pt;
+    left:57pt;
+}
+
+.video{
+   position: relative;
+    width: 620pt;
+    height:350pt;
+    top:-25pt;
+    left: 50%;
+    transform: translateX(-50%); 
+    
+}
+
+
+
+
+
+
+/* Clear Float */
+
+body {
+    margin: 0;
+}
+
+
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
